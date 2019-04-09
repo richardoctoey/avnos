@@ -13,6 +13,6 @@ func Reverser(i int) int {
 }
 
 func Reverse() {
-	fmt.Println("Number 2: ", Reverser(1234))
-	fmt.Println("Number 2: ", Reverser(12345))
+	fmt.Println("Number 2:  Input:", 1234, "  >>> ", Reverser(1234))
+	fmt.Println("Number 2:  Input:", 54321, " >>> ", Reverser(54321))
 }
